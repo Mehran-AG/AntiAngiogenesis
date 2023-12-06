@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5ADF3E95-99B4-4469-A0E4-FBDB8300B8CD}</ProjectGuid>
+    <RootNamespace>Tumor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>F:\Dr. Sanatinezhad\C++ Tumor\Tumor\EigenDir;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>F:\Dr. Sanatinezhad\C++ Tumor\Tumor\EigenDir;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mehran\Desktop\Dr. Sanatinezhad\C++ Tumor\Tumor\EigenDir;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>5000000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>4194304</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddToProhibitedVessels.cpp" />
+    <ClCompile Include="Brancher.cpp" />
+    <ClCompile Include="Branching.cpp" />
+    <ClCompile Include="BranchingPointFinder.cpp" />
+    <ClCompile Include="BranchTracker.cpp" />
+    <ClCompile Include="ChangeProhibitedVessels.cpp" />
+    <ClCompile Include="CoefficientsMatrix.cpp" />
+    <ClCompile Include="ConcatenateVessels.cpp" />
+    <ClCompile Include="Concatenators.cpp" />
+    <ClCompile Include="DirectionModifier.cpp" />
+    <ClCompile Include="ECProliferation.cpp" />
+    <ClCompile Include="EmptyCapillaryRemover.cpp" />
+    <ClCompile Include="FlowDistributionSolver.cpp" />
+    <ClCompile Include="Greetings.cpp" />
+    <ClCompile Include="HemaetocritSolver.cpp" />
+    <ClCompile Include="InitialConcentrations.cpp" />
+    <ClCompile Include="InitialSproutingOfParentVessel.cpp" />
+    <ClCompile Include="MatlabOutput.cpp" />
+    <ClCompile Include="MMPiConsumption.cpp" />
+    <ClCompile Include="RemoveLastVessel.cpp" />
+    <ClCompile Include="RemoveNodeVessel.cpp" />
+    <ClCompile Include="ShearBranching.cpp" />
+    <ClCompile Include="SproutingOfParentVessel.cpp" />
+    <ClCompile Include="UnendedCapillaryRemover.cpp" />
+    <ClCompile Include="DirectionFinder.cpp" />
+    <ClCompile Include="FibronectinConsumption.cpp" />
+    <ClCompile Include="ForceMovementDirection.cpp" />
+    <ClCompile Include="GetMotherVesselPosition.cpp" />
+    <ClCompile Include="Initials.cpp" />
+    <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="MigrationOfVessels.cpp" />
+    <ClCompile Include="MigrationOfImmatureVessel.cpp" />
+    <ClCompile Include="MigrationOfMatureVessel.cpp" />
+    <ClCompile Include="MovementPreventer.cpp" />
+    <ClCompile Include="cNode.cpp" />
+    <ClCompile Include="OutputWriter.cpp" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="Probabilities.cpp" />
+    <ClCompile Include="ProximityCheck.cpp" />
+    <ClCompile Include="RangeCalculator.cpp" />
+    <ClCompile Include="TipToTipAnastomosis.cpp" />
+    <ClCompile Include="TipToStalkAnastomosis.cpp" />
+    <ClCompile Include="VCounter.cpp" />
+    <ClCompile Include="VEGF_Check.cpp" />
+    <ClCompile Include="VEGF_Consumption.cpp" />
+    <ClCompile Include="cVessel.cpp" />
+    <ClCompile Include="VesselAdaptionSolver.cpp" />
+    <ClCompile Include="VesselRemover.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Mehran\Desktop\Dr. Sanatinezhad\C++ Tumor\Tumor\EigenDir;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="ViscositySolver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddToProhibitedVessels.h" />
+    <ClInclude Include="Brancher.h" />
+    <ClInclude Include="Branching.h" />
+    <ClInclude Include="BranchingPointFinder.h" />
+    <ClInclude Include="BranchTracker.h" />
+    <ClInclude Include="ChangeProhibitedVessels.h" />
+    <ClInclude Include="ConcatenateVessels.h" />
+    <ClInclude Include="Concatenators.h" />
+    <ClInclude Include="dimension.h" />
+    <ClInclude Include="DirectionModifier.h" />
+    <ClInclude Include="ECProliferation.h" />
+    <ClInclude Include="EmptyCapillaryRemover.h" />
+    <ClInclude Include="Endostatin.h" />
+    <ClInclude Include="FlowDistributionSolver.h" />
+    <ClInclude Include="Greetings.h" />
+    <ClInclude Include="HemaetocritSolver.h" />
+    <ClInclude Include="InitialConcentrations.h" />
+    <ClInclude Include="InitialSproutingOfParentVessel.h" />
+    <ClInclude Include="MatlabOutput.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MMPiConsumption.h" />
+    <ClInclude Include="RemoveLastVessel.h" />
+    <ClInclude Include="RemoveNodeVessel.h" />
+    <ClInclude Include="ShearBranching.h" />
+    <ClInclude Include="SproutingOfParentVessel.h" />
+    <ClInclude Include="UnendedCapillaryRemover.h" />
+    <ClInclude Include="DirectionFinder.h" />
+    <ClInclude Include="FibronectinConsumption.h" />
+    <ClInclude Include="ForceMovementDirection.h" />
+    <ClInclude Include="GetMotherVesselPosition.h" />
+    <ClInclude Include="MovementPreventer.h" />
+    <ClInclude Include="OutputWriter.h" />
+    <ClInclude Include="Initials.h" />
+    <ClInclude Include="MigrationOfVessels.h" />
+    <ClInclude Include="MigrationOfImmatureVessel.h" />
+    <ClInclude Include="MigrationOfMatureVessel.h" />
+    <ClInclude Include="cNode.h" />
+    <ClInclude Include="PositionFinder.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="Probabilities.h" />
+    <ClInclude Include="ProximityCheck.h" />
+    <ClInclude Include="RangeCalculator.h" />
+    <ClInclude Include="TipToTipAnastomosis.h" />
+    <ClInclude Include="TipToStalkAnastomosis.h" />
+    <ClInclude Include="CoefficientsMatrix.h" />
+    <ClInclude Include="VCounter.h" />
+    <ClInclude Include="VEGF_Check.h" />
+    <ClInclude Include="VEGF_Consumption.h" />
+    <ClInclude Include="cVessel.h" />
+    <ClInclude Include="VesselAdaptionSolver.h" />
+    <ClInclude Include="VesselRemover.h" />
+    <ClInclude Include="ViscositySolver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

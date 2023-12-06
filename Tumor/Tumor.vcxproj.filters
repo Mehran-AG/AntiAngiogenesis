@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{a07bd675-3707-4f4a-88a8-d63d1fc2ef82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Initials">
+      <UniqueIdentifier>{55868688-6372-4903-bb9e-2b264f7d2d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Auxiliary">
+      <UniqueIdentifier>{4d71fb70-b472-4203-8f15-bac83abfa955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Migration">
+      <UniqueIdentifier>{6d5f52f1-c4a2-47e5-946a-23122106aef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Consumption Solvers">
+      <UniqueIdentifier>{eaaf7d20-fbf4-4a11-aa30-1c3df9f2d59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Writers">
+      <UniqueIdentifier>{edf63830-9cd9-4904-a001-39ea9c16b3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anastomosis">
+      <UniqueIdentifier>{ccb2ef44-cc3b-47ba-bd4c-458fa6a357df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flow Distribution Solver">
+      <UniqueIdentifier>{5d9783b2-e407-4043-802d-2e308d2e7293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anastomosis">
+      <UniqueIdentifier>{295d7bf0-36ec-423f-9626-ae732c0ba93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Auxiliary">
+      <UniqueIdentifier>{79f0a63c-15c8-4ccc-a6ad-41668f22b34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{b5ebff45-7dfc-4c13-9d97-e4ca553a1474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Consumption Solvers">
+      <UniqueIdentifier>{f0fac391-29ae-47cd-a36b-6cddc3638892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Flow Distribution Solver">
+      <UniqueIdentifier>{9bb68d84-1e3c-41a9-a82e-6c351fb2f489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Initials">
+      <UniqueIdentifier>{3be4bbdf-1272-4c5a-a5a9-823e1a41118e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Migration">
+      <UniqueIdentifier>{00946d17-3f94-4266-88e3-699b149fd09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Writers">
+      <UniqueIdentifier>{78c5f77b-d684-4696-a184-ec343309c63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vessel Adaptaion">
+      <UniqueIdentifier>{8aeb3014-75b4-4e08-8292-1f737b90b2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vessel Adaptaion">
+      <UniqueIdentifier>{b6eee600-6370-4ff5-909a-2afc95c85fc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MAIN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cNode.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cVessel.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialConcentrations.cpp">
+      <Filter>Source Files\Initials</Filter>
+    </ClCompile>
+    <ClCompile Include="Initials.cpp">
+      <Filter>Source Files\Initials</Filter>
+    </ClCompile>
+    <ClCompile Include="SproutingOfParentVessel.cpp">
+      <Filter>Source Files\Initials</Filter>
+    </ClCompile>
+    <ClCompile Include="BranchTracker.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcatenateVessels.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionFinder.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="ProximityCheck.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeCalculator.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="VEGF_Check.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="MigrationOfImmatureVessel.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="MigrationOfMatureVessel.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="MigrationOfVessels.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementPreventer.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceMovementDirection.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="VEGF_Consumption.cpp">
+      <Filter>Source Files\Consumption Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="FibronectinConsumption.cpp">
+      <Filter>Source Files\Consumption Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMotherVesselPosition.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWriter.cpp">
+      <Filter>Source Files\Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>Source Files\Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Greetings.cpp">
+      <Filter>Source Files\Initials</Filter>
+    </ClCompile>
+    <ClCompile Include="TipToStalkAnastomosis.cpp">
+      <Filter>Source Files\Anastomosis</Filter>
+    </ClCompile>
+    <ClCompile Include="TipToTipAnastomosis.cpp">
+      <Filter>Source Files\Anastomosis</Filter>
+    </ClCompile>
+    <ClCompile Include="UnendedCapillaryRemover.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Probabilities.cpp">
+      <Filter>Source Files\Initials</Filter>
+    </ClCompile>
+    <ClCompile Include="VesselRemover.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Branching.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+    <ClCompile Include="CoefficientsMatrix.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeProhibitedVessels.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="AddToProhibitedVessels.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="HemaetocritSolver.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionModifier.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="ViscositySolver.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowDistributionSolver.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyCapillaryRemover.cpp">
+      <Filter>Source Files\Flow Distribution Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialSproutingOfParentVessel.cpp">
+      <Filter>Source Files\Initials</Filter>
+    </ClCompile>
+    <ClCompile Include="VesselAdaptionSolver.cpp">
+      <Filter>Source Files\Vessel Adaptaion</Filter>
+    </ClCompile>
+    <ClCompile Include="MatlabOutput.cpp">
+      <Filter>Source Files\Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="MMPiConsumption.cpp">
+      <Filter>Source Files\Consumption Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveNodeVessel.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Concatenators.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveLastVessel.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="ShearBranching.cpp">
+      <Filter>Source Files\Vessel Adaptaion</Filter>
+    </ClCompile>
+    <ClCompile Include="BranchingPointFinder.cpp">
+      <Filter>Source Files\Vessel Adaptaion</Filter>
+    </ClCompile>
+    <ClCompile Include="Brancher.cpp">
+      <Filter>Source Files\Vessel Adaptaion</Filter>
+    </ClCompile>
+    <ClCompile Include="VCounter.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="ECProliferation.cpp">
+      <Filter>Source Files\Migration</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipToTipAnastomosis.h">
+      <Filter>Header Files\Anastomosis</Filter>
+    </ClInclude>
+    <ClInclude Include="TipToStalkAnastomosis.h">
+      <Filter>Header Files\Anastomosis</Filter>
+    </ClInclude>
+    <ClInclude Include="AddToProhibitedVessels.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="BranchTracker.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeProhibitedVessels.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcatenateVessels.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionFinder.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="ProximityCheck.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeCalculator.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="VEGF_Check.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="VesselRemover.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="cNode.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cVessel.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FibronectinConsumption.h">
+      <Filter>Header Files\Consumption Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="VEGF_Consumption.h">
+      <Filter>Header Files\Consumption Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoefficientsMatrix.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionModifier.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyCapillaryRemover.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowDistributionSolver.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="HemaetocritSolver.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="UnendedCapillaryRemover.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ViscositySolver.h">
+      <Filter>Header Files\Flow Distribution Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Greetings.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialConcentrations.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="Initials.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialSproutingOfParentVessel.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="Probabilities.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="SproutingOfParentVessel.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="Branching.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceMovementDirection.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="GetMotherVesselPosition.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="MigrationOfImmatureVessel.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="MigrationOfMatureVessel.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="MigrationOfVessels.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPreventer.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionFinder.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWriter.h">
+      <Filter>Header Files\Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files\Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="VesselAdaptionSolver.h">
+      <Filter>Header Files\Vessel Adaptaion</Filter>
+    </ClInclude>
+    <ClInclude Include="MatlabOutput.h">
+      <Filter>Header Files\Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="MMPiConsumption.h">
+      <Filter>Header Files\Consumption Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveNodeVessel.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Concatenators.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveLastVessel.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="ShearBranching.h">
+      <Filter>Header Files\Vessel Adaptaion</Filter>
+    </ClInclude>
+    <ClInclude Include="BranchingPointFinder.h">
+      <Filter>Header Files\Vessel Adaptaion</Filter>
+    </ClInclude>
+    <ClInclude Include="Brancher.h">
+      <Filter>Header Files\Vessel Adaptaion</Filter>
+    </ClInclude>
+    <ClInclude Include="VCounter.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="dimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Endostatin.h">
+      <Filter>Header Files\Initials</Filter>
+    </ClInclude>
+    <ClInclude Include="ECProliferation.h">
+      <Filter>Header Files\Migration</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
